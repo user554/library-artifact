@@ -1,10 +1,8 @@
 package com.libraryManagement.libraryArtifact.libraryEntity;
 
-import com.libraryManagement.libraryArtifact.bookEnumPacakage.AccountStatus;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
-import javax.persistence.*;
 
 @Getter
 @Setter

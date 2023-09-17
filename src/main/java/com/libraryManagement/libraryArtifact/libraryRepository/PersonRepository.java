@@ -1,6 +1,5 @@
 package com.libraryManagement.libraryArtifact.libraryRepository;
 
-import com.libraryManagement.libraryArtifact.libraryEntity.BookEntity;
 import com.libraryManagement.libraryArtifact.libraryEntity.PersonEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,8 +1,10 @@
 package com.libraryManagement.libraryArtifact.libraryModel;
+
 import com.libraryManagement.libraryArtifact.bookEnumPacakage.BookFormat;
 import com.libraryManagement.libraryArtifact.bookEnumPacakage.BookStatus;
 import lombok.Getter;
 import lombok.Setter;
+
 import java.util.Date;
 
 @Getter

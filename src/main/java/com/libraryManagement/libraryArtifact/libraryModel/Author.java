@@ -1,6 +1,5 @@
 package com.libraryManagement.libraryArtifact.libraryModel;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
 import lombok.Getter;
 
 @Getter

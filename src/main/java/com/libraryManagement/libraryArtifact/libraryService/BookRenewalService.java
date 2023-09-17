@@ -1,18 +1,13 @@
 package com.libraryManagement.libraryArtifact.libraryService;
 
 import com.libraryManagement.libraryArtifact.bookEnumPacakage.LibraryErrorMessages;
-import com.libraryManagement.libraryArtifact.converter.LocalDateConverter;
 import com.libraryManagement.libraryArtifact.libraryEntity.BookCheckOutEntity;
 import com.libraryManagement.libraryArtifact.libraryException.LibraryException;
-import com.libraryManagement.libraryArtifact.libraryModel.BookCheckOutModel;
 import com.libraryManagement.libraryArtifact.libraryModel.BookRenewalModel;
 import com.libraryManagement.libraryArtifact.libraryRepository.BookCheckOutRepository;
-import com.libraryManagement.libraryArtifact.libraryRepository.BookRenewalRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
-import java.util.List;
 import java.util.Optional;
 @Slf4j
 @Service
